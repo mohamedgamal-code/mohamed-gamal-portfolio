@@ -1,0 +1,35 @@
+{
+  "badge": "05 / Contact",
+"title": "Let's ",
+  "connect": "Connect",
+  "leftColumn": {
+    "heading": "Let’s turn your idea into a real product",
+    "subheading": "I’m available for freelance projects and open to collaborations. Whether you have an idea or a project in mind, let’s turn it into a real product.",
+    "response": "Typically responds within 24 hours"
+  },
+  "info": {
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "location": "Location",
+    "locationValue": "Cairo, Egypt 🇪🇬"
+  },
+  "form": {
+    "heading": "Let's work together",
+    "subheading": "Tell me a bit about your project and I’ll get back to you.",
+    "placeholderName": "Your Name",
+    "placeholderEmail": "Your Email",
+    "placeholderProject": "What do you need? (Optional)",
+    "placeholderMessage": "Tell me about your project details...",
+    "submit": "Send Message",
+    "loading": "Sending...",
+    "success": "Message Sent",
+    "error": "Try Again",
+    "projects": {
+      "landing": "Landing Page",
+      "website": "Full Website",
+      "ecommerce": "E-commerce",
+      "webapp": "Web Application",
+      "other": "Something else"
+    }
+  }
+}

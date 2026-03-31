@@ -1,0 +1,29 @@
+{
+  "Navbar": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact",
+    "hireMe": "Work With Me"
+  },
+  "Footer": {
+    "cta": "Interested in working together?",
+"talk": "Get in touch",
+    "description": "I help businesses build fast, scalable, and user-focused web applications that solve real problems.",
+    "menuTitle": "Navigation",
+    "contactTitle": "Get in Touch",
+    "location": "Cairo, Egypt 🇪🇬",
+    "rights": "© {year} — Designed & Developed by Mohamed Gamal ",
+    "status": "Open to freelance and remote opportunities",
+    "menu": {
+      "home": "Home",
+      "about": "About",
+      "experience": "Experience",
+      "projects": "Projects",
+      "skills": "Skills",
+      "contact": "Contact"
+    }
+  }
+}

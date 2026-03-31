@@ -1,0 +1,31 @@
+{
+  "section": {
+    "subtitle": "03 / PROJECTS",
+    "title": "Featured",
+    "titleAccent": "Projects",
+    "bgText": "Projects",
+    "exploreMore": "View More Projects on GitHub"
+  },
+  "items": {
+    "ecommerce": {
+      "title": "Full-Stack E-Commerce Platform",
+      "description": "A scalable e-commerce platform with secure authentication, product management, and Stripe payments. Built with a modern full-stack architecture focused on performance and user experience."
+    },
+    "medicare": {
+      "title": "DocConnect – Healthcare Booking Platform",
+      "description": "A full-stack healthcare appointment system with secure authentication and real-time booking. Designed with a clean UI and optimized for performance and accessibility."
+    },
+    "luxestay": {
+      "title": "Luxestay – Hotel Booking Experience",
+      "description": "A modern hotel booking platform delivering a seamless reservation experience with dynamic data handling and optimized performance using server-side features."
+    },
+    "portfolio": {
+      "title": "Personal Portfolio v1",
+      "description": "My first portfolio showcasing projects and frontend skills, built with a focus on animations, responsiveness, and clean UI design."
+    }
+  },
+  "buttons": {
+    "viewProject": "View Project",
+    "viewCode": "View Code"
+  }
+}

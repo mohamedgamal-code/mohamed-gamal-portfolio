@@ -1,0 +1,20 @@
+{
+  "sectionLabel": "SKILLS",
+  "title": "Technology",
+  "titleAccent": "Stack",
+  "bottomText": "Technologies behind the products I build",
+  "categories": {
+    "frontend": {
+      "label": "Frontend",
+      "description": "// crafting high-performance and interactive user experiences"
+    },
+    "backend": {
+      "label": "Backend",
+      "description": "// designing scalable architectures and efficient APIs"
+    },
+    "tools": {
+      "label": "Tools",
+      "description": "// tools that streamline development and deployment workflows"
+    }
+  }
+}

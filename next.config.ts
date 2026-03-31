@@ -1,8 +1,13 @@
 import type { NextConfig } from "next";
+import createNextIntlPlugin from 'next-intl/plugin';
+
+// إعداد Plugin اللغات
+const withNextIntl = createNextIntlPlugin();
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  /* خيارات الإعداد الخاصة بك */
   reactCompiler: true,
 };
 
-export default nextConfig;
+// بنلف الـ nextConfig بـ withNextIntl
+export default withNextIntl(nextConfig);

@@ -1,0 +1,46 @@
+{
+ "label": "Experience",
+  "title": "Work",
+"subtitle": "Experience",
+  "items": {
+    "freelancer": {
+      "company": "Independent Freelancer",
+      "role": "Full Stack Software Engineer",
+      "location": "Remote (Global)",
+      "duration": "Jan 2024 — Present",
+      "description": "Partnering with international clients to architect and deliver end-to-end web applications. Focusing on scalable backends and highly optimized, SEO-friendly frontends.",
+      "tasks": [
+        "Architected secure and scalable RESTful APIs using Node.js and TypeScript",
+        "Developed interactive UIs with Next.js, achieving 90+ Lighthouse scores",
+        "Integrated third-party services like Stripe for payments and AWS for storage",
+        "Communicated directly with stakeholders to deliver high business value"
+      ]
+    },
+    "agency": {
+      "company": "Remote Digital Agency",
+      "role": "Backend Developer",
+      "location": "Remote",
+      "duration": "Mar 2023 — Dec 2023",
+      "description": "Collaborated asynchronously with a distributed agile team to build robust backend services for high-traffic SaaS products.",
+      "tasks": [
+        "Designed and optimized complex database schemas for high concurrency",
+        "Refactored legacy JS codebases into strongly typed TypeScript architectures",
+        "Implemented JWT authentication and RBAC for advanced security",
+        "Maintained Clean Code standards through rigorous peer code reviews"
+      ]
+    },
+    "solutions": {
+      "company": "Software Solutions Co.",
+      "role": "Frontend Developer",
+      "location": "Cairo, Egypt",
+      "duration": "Jan 2022 — Feb 2023",
+      "description": "Started as a core frontend developer, translating complex UI/UX designs into pixel-perfect, responsive web experiences.",
+      "tasks": [
+        "Built reusable and accessible React components with modular code",
+        "Managed global state efficiently using Redux and Zustand",
+        "Collaborated closely with designers and managers in weekly sprints",
+        "Optimized page load times via lazy loading and code splitting"
+      ]
+    }
+  }
+}

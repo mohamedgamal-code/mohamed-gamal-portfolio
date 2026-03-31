@@ -1,0 +1,62 @@
+{
+  "Hero": {
+    "badge": "Open to freelance and remote opportunities",
+    "location": "Cairo, Egypt 🇪🇬",
+    "greeting": "Hi, I'm",
+    "titles": {
+      "0": "Full-Stack Web Engineer ",
+      "1": "Building Scalable Web Apps",
+      "2": "SaaS & Dashboard Specialist",
+      "3": "Clean & Maintainable Code",
+      "4": "Performance-Driven Development"
+    },
+    "description": "I design and build <strong>scalable, high-performance web applications</strong> using <blue>React, Next.js, and TypeScript</blue> — focused on delivering real business value, clean architecture, and exceptional user experience.",
+    "descriptionSub": "From idea to production — building products that scale and perform.",
+    "cta": {
+      "projects": "View My Work",
+      "cv": "Download CV"
+    },
+    "nameTag": "Mohamed Gamal · Full Stack Engineer",
+    "stackBadge": "Next.js Expert"
+  },
+  "About": {
+    "sectionLabel": "01 / About",
+    "title": "Who ",
+    "titleAccent": "Am I",
+    "bio": {
+      "intro": "I'm",
+      "passion": "a passionate",
+      "title": "Full-Stack Engineer",
+        "description": "based in Egypt, focused on building scalable, maintainable, and high-performance web applications. I work closely with businesses to transform ideas into real, production-ready products that solve actual problems.",
+      "stack1": "I primarily work with",
+      "stack2": "on the frontend, and",
+      "stack3": "on the backend — following clean architecture and modern development practices."
+    },
+    "highlights": {
+      "0": "Scalable and production-ready systems",
+      "1": "Performance-focused development",
+      "2": "Clean, maintainable architecture",
+      "3": "User-centered design thinking"
+    },
+    "tags": {
+      "0": "Full Stack Engineer",
+      "1": "Next.js Specialist",
+      "2": "SaaS Builder",
+      "3": "Product-Focused Developer"
+    },
+   "cta": "Explore My Work",
+    "stats": {
+      "years": "Years of Experience",
+      "projects": "Projects Delivered",
+      "techs": "Technologies Mastered",
+      "coffee": "Cups of Coffee ☕"
+    },
+    "currently": {
+      "label": "Currently",
+      "text1": "Building",
+      "text2": "scalable SaaS and web platforms",
+      "text3": "while continuously improving in",
+      "text4": "system design and modern backend architecture"
+    }
+  }
+}
