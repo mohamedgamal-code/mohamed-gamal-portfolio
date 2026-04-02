@@ -1,14 +1,16 @@
+<!-- @format -->
+
 <div align="center">
 
-# Ahmed Ali — Full Stack Engineer
+# Mohamed Gamal — Full Stack Engineer
 
-### Crafting fast, scalable, and user-focused web experiences
+### Crafting fast, scalable, and user-focused web experiences with modern technologies
 
 <p align="center">
-  <a href="https://your-domain.vercel.app">
+  <a href="https://mohamed-gamal-portfolio-alpha.vercel.app/">
     <img src="https://img.shields.io/badge/🌐_Live_Demo-000?style=for-the-badge" />
   </a>
-  <a href="https://github.com/your-username/your-repo">
+  <a href="https://github.com/Mohamed-Gamal-code/mohamed-gamal-portfolio">
     <img src="https://img.shields.io/badge/💻_Source_Code-111?style=for-the-badge" />
   </a>
 </p>
@@ -24,8 +26,14 @@
 
 ## 💡 About This Project
 
-This portfolio is designed to showcase my work, skills, and experience as a Full Stack Engineer.  
-It focuses on performance, scalability, and modern UI/UX principles while supporting multilingual experiences (English & Arabic).
+This is a modern, high-performance portfolio built to showcase my work, skills, and experience as a Full Stack Developer.
+
+The project focuses on clean architecture, scalability, and a refined user experience, combining smooth animations with a fully responsive and accessible design.
+
+It also supports multilingual experiences (English & Arabic), including RTL and LTR layouts, ensuring a seamless experience for a wider audience.
+<p align="center">
+  Built with attention to detail and a passion for clean, modern UI.
+</p>
 
 ---
 
@@ -34,56 +42,61 @@ It focuses on performance, scalability, and modern UI/UX principles while suppor
 <div align="center">
 
 ### 🏠 Home
-![Home](./public/screenshots/home.png)
 
-### 👤 About
-![About](./public/screenshots/about.png)
-
-### 🛠️ Skills
-![Skills](./public/screenshots/skills.png)
+<p align="center">
+  <img src="./public/screenshots/home.png" width="800" />
+</p>
 
 ### 💼 Projects
-![Projects](./public/screenshots/projects.png)
+
+<p align="center">
+  <img src="./public/screenshots/projects.png" width="800" />
+</p>
+### 🛠️ Skills
+
+<p align="center">
+  <img src="./public/screenshots/skills.png" width="800" />
+</p>
 
 ### 🧠 Experience
-![Experience](./public/screenshots/experience.png)
+
+<p align="center">
+  <img src="./public/screenshots/experience.png" width="800" />
+</p>
 
 ### 📬 Contact
-![Contact](./public/screenshots/contact.png)
-
-</div>
+<p align="center">
+  <img src="./public/screenshots/contact.png" width="800" />
+</p>
 
 ---
 
+</div>
+
 ## ✨ Features
 
-| Feature | Description |
-|---|---|
-| ⚡ **Next.js 15** | App Router, Server Components, optimized performance |
-| 🌍 **Full i18n** | English (LTR) & Arabic (RTL) with `next-intl` |
-| 🎨 **Animations** | Particles, Lightning effects, Framer Motion transitions |
-| 📱 **Responsive** | Mobile-first, optimized for all screen sizes |
-| 🌙 **Dark / Light** | Smooth theme switching with `next-themes` |
-| 🚀 **Performance** | Optimized for speed (Lighthouse 90+) |
-| 🏗️ **Clean Architecture** | Modular structure, separation of concerns |
-| 🔍 **SEO Ready** | OpenGraph, Twitter Card, structured metadata |
+| Feature                   | Description                                             |
+| ------------------------- | ------------------------------------------------------- |
+| ⚡ **Next.js 15**         | App Router, Server Components, optimized performance    |
+| 🌍 **Full i18n**          | English (LTR) & Arabic (RTL) with `next-intl`           |
+| 🎨 **Animations**         | Particles, Lightning effects, Framer Motion transitions |
+| 📱 **Responsive**         | Mobile-first, optimized for all screen sizes            |
+| 🌙 **Dark / Light**       | Smooth theme switching with `next-themes`               |
+| 🚀 **Performance**        | Optimized for speed (Lighthouse 90+)                    |
+| 🏗️ **Clean Architecture** | Modular structure, separation of concerns               |
+| 🔍 **SEO Ready**          | OpenGraph, Twitter Card, structured metadata            |
 
 ---
 
 ## 🛠️ Tech Stack
 
-### 🎨 Frontend
-- Next.js 15 · TypeScript · Tailwind CSS v4  
-- Framer Motion · shadcn/ui · Radix UI · next-intl  
-
-### ⚙️ Backend & Database
-- Node.js · Express.js  
-- MongoDB · PostgreSQL · Prisma  
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,nodejs,express,mongodb,postgres,prisma" />
+</p>
 
 ---
 
 ## 📂 Project Structure
-
 
 ```
 src/
@@ -113,7 +126,7 @@ public/
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/Mohamed-Gamal-code/mohamed-gamal-portfolio
 cd your-repo
 
 # Install dependencies
@@ -140,6 +153,7 @@ The portfolio supports **English** and **Arabic** out of the box.
 ```
 
 Translation files are located in `src/messages/`:
+
 - `en.json` — English translations
 - `ar.json` — Arabic translations
 
@@ -149,12 +163,21 @@ Translation files are located in `src/messages/`:
 
 <div align="center">
 
-| Platform | Link |
-|---|---|
-| 📧 Email | [your@email.com](mailto:your@email.com) |
-| 💼 LinkedIn | [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile) |
-| 💻 GitHub | [github.com/your-username](https://github.com/your-username) |
-| 💬 WhatsApp | [wa.me/your-number](https://wa.me/your-number) |
+<a href="https://mohamed-gamal-portfolio-alpha.vercel.app">
+  <img src="https://img.shields.io/badge/🚀_My_Portfolio-111?style=for-the-badge" />
+</a>
+
+<a href="https://www.linkedin.com/in/mohamed-gamal-code">
+  <img src="https://img.shields.io/badge/💼_My_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+
+<a href="https://github.com/Mohamed-Gamal-code">
+  <img src="https://img.shields.io/badge/💻_GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+<a href="https://www.upwork.com/freelancers/~0194a7d28b23a1525f">
+  <img src="https://img.shields.io/badge/🟢_Hire_Me-6FDA44?style=for-the-badge&logo=upwork&logoColor=white" />
+</a>
 
 </div>
 
@@ -169,10 +192,15 @@ This project is licensed under the [MIT License](LICENSE).
 <div align="center">
 
 ### 💫 Final Note
-*Built with passion, precision, and modern web technologies.*
 
-**If you found this project useful, consider giving it a ⭐**
+_Crafted with attention to detail, performance, and modern web technologies._
 
-Made with ❤️ by [Ahmed Ali](https://github.com/your-username)
+<br/>
+
+**If you found this project helpful, consider giving it a ⭐ to support the work.**
+
+<br/>
+
+Made with ❤️ by [Mohamed Gamal](https://github.com/Mohamed-Gamal-code)
 
 </div>

@@ -1,6 +1,6 @@
 {
   "badge": "05 / Contact",
-"title": "Let's ",
+  "title": "Let's ",
   "connect": "Connect",
   "leftColumn": {
     "heading": "Let’s turn your idea into a real product",
@@ -24,6 +24,9 @@
     "loading": "Sending...",
     "success": "Message Sent",
     "error": "Try Again",
+    "success_message": "Thanks for reaching out, I'll get back to you soon.",
+    "error_title": "Oops!",
+    "error_message": "Something went wrong. Please try again.",
     "projects": {
       "landing": "Landing Page",
       "website": "Full Website",

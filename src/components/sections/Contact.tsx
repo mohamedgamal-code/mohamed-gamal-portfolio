@@ -3,7 +3,7 @@
 "use client";
 import { useState } from "react";
 import { useTranslations } from "next-intl";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -39,20 +39,18 @@ export default function Contact() {
     project: "",
   });
   const [status, setStatus] = useState<Status>("idle");
- const handleContactClick = (e: React.MouseEvent, info: any) => {
-  
-  if (info.label === t("info.email")) {
-    e.preventDefault();
-    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-    if (isMobile) {
-      window.location.href = info.href;
-    } else {
-      window.open(info.gmailHref, '_blank');
+  const handleContactClick = (e: React.MouseEvent, info: any) => {
+    if (info.label === t("info.email")) {
+      e.preventDefault();
+      const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+      if (isMobile) {
+        window.location.href = info.href;
+      } else {
+        window.open(info.gmailHref, "_blank");
+      }
+      return;
     }
-    return;
-  }
-
-};
+  };
   const SOCIAL = [
     {
       icon: SiGithub,
@@ -236,7 +234,12 @@ export default function Contact() {
                         target="_blank"
                         rel="noopener noreferrer"
                         onClick={(e) =>
-                          handleContactClick(e, { label, href, gmailHref , color})
+                          handleContactClick(e, {
+                            label,
+                            href,
+                            gmailHref,
+                            color,
+                          })
                         }
                         className="text-zinc-900 dark:text-white font-bold text-sm md:text-base hover:text-blue-600 transition-colors truncate"
                       >
@@ -341,27 +344,68 @@ export default function Contact() {
                   className="bg-white dark:bg-zinc-900 border-zinc-200 dark:border-zinc-800 rounded-xl resize-none text-sm md:text-base"
                 />
 
-                <Button
-                  type="submit"
-                  disabled={status === "loading"}
-                  className="h-12 md:h-14 font-bold uppercase bg-blue-600 hover:bg-blue-700 text-white rounded-xl shadow-lg transition-all active:scale-[0.98]"
+                <motion.div
+                  whileHover={{ scale: 1.01 }}
+                  whileTap={{ scale: 0.98 }}
+                  className="w-full"
                 >
-                  {status === "loading" ? (
-                    <Loader2 className="animate-spin w-5 h-5" />
-                  ) : status === "success" ? (
-                    <div className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5" /> {t("form.success")}
-                    </div>
-                  ) : status === "error" ? (
-                    <div className="flex items-center gap-2">
-                      <AlertCircle className="w-5 h-5" /> {t("form.error")}
-                    </div>
-                  ) : (
-                    <div className="flex items-center gap-2">
-                      <Send className="w-4 h-4" /> {t("form.submit")}
-                    </div>
-                  )}
-                </Button>
+                  <Button
+                    type="submit"
+                    disabled={status === "loading" || status === "success"}
+                    className={`
+      h-12 md:h-14 font-bold uppercase rounded-xl w-full relative overflow-hidden transition-all duration-300
+      ${
+        status === "success"
+          ? "bg-green-600 text-white shadow-lg shadow-green-200/50"
+          : "bg-blue-600 text-white shadow-md shadow-blue-500/20 hover:bg-blue-700 hover:shadow-[0_8px_30px_rgba(37,99,235,0.4)] hover:border-blue-400"
+      }
+      border border-transparent
+      dark:hover:bg-blue-500 dark:hover:shadow-[0_0_20px_rgba(59,130,246,0.5)]
+    `}
+                  >
+                    <AnimatePresence mode="wait">
+                      {status === "loading" ? (
+                        <motion.div
+                          key="loading"
+                          initial={{ opacity: 0 }}
+                          animate={{ opacity: 1 }}
+                          exit={{ opacity: 0 }}
+                          className="flex items-center justify-center"
+                        >
+                          <Loader2 className="animate-spin w-5 h-5" />
+                        </motion.div>
+                      ) : status === "success" ? (
+                        <motion.div
+                          key="success"
+                          initial={{ y: 10, opacity: 0 }}
+                          animate={{ y: 0, opacity: 1 }}
+                          className="flex items-center gap-2 justify-center"
+                        >
+                          <CheckCircle2 className="w-5 h-5" />
+                          {t("form.success")}
+                        </motion.div>
+                      ) : (
+                        <motion.div
+                          key="idle"
+                          initial={{ opacity: 0 }}
+                          animate={{ opacity: 1 }}
+                          exit={{ opacity: 0 }}
+                          className="flex items-center gap-2 justify-center z-10"
+                        >
+                          <Send className="w-4 h-4" /> {t("form.submit")}
+                        </motion.div>
+                      )}
+                    </AnimatePresence>
+
+                    {/* اللمعة (Shine Effect) */}
+                    <motion.div
+                      className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent pointer-events-none"
+                      initial={{ x: "-100%" }}
+                      whileHover={{ x: "100%" }}
+                      transition={{ duration: 0.6 }}
+                    />
+                  </Button>
+                </motion.div>
               </div>
             </form>
           </SectionReveal>

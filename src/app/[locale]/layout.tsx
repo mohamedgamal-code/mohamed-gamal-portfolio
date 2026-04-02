@@ -36,7 +36,7 @@ const cairo = Cairo({
   display: "swap",
 });
 export const metadata: Metadata = {
-  metadataBase: new URL("https://your-portfolio.vercel.app"),
+  metadataBase: new URL("https://mohamed-gamal-portfolio-alpha.vercel.app/"),
 
   title: {
     default: "Mohamed Gamal — Full Stack Engineer | Building Scalable Web Apps",
@@ -79,7 +79,7 @@ export const metadata: Metadata = {
 
   openGraph: {
     type: "website",
-    url: "https://your-portfolio.vercel.app",
+    url: "https://mohamed-gamal-portfolio-alpha.vercel.app/",
     locale: "en_US",
     alternateLocale: ["ar_EG"],
     title: "Mohamed Gamal — Full Stack Engineer",
@@ -167,8 +167,8 @@ transition-colors duration-300 relative
             <div className="fixed inset-0 z-0 pointer-events-none overflow-hidden">
               {/* Light mode */}
               <div className="block dark:hidden w-full h-full">
-                <Particles count={80} color="37,99,235" opacity={0.6} />
-                <Lightning count={3} color="#fafafa" />
+                <Particles count={80} color="148, 163, 184" opacity={0.6} />
+                <Lightning count={3} color="#ffffff" />
               </div>
 
               {/* Dark mode */}
