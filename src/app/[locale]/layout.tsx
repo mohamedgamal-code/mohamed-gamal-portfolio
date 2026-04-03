@@ -173,7 +173,7 @@ transition-colors duration-300 relative
 
               {/* Dark mode */}
               <div className="hidden dark:block w-full h-full">
-                <Particles count={130} color="59,130,246" opacity={0.9} />
+                <Particles count={130} color="59,130,246" opacity={0.95} />
                 <Lightning count={3} color="#3b82f6" />
               </div>
 

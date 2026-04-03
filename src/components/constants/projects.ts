@@ -53,7 +53,7 @@ export const PROJECTS: Project[] = [
       "My first portfolio showcasing projects and frontend skills, built with a focus on animations, responsiveness, and clean UI design.",
     tags: ["React.js", "TypeScript", "Framer Motion", "Tailwind CSS"],
     image: "/projects/portfolio.png",
-    liveUrl: "https://my-portfolio-3y8d.vercel.app/",
+    liveUrl: "https://mohamed-gamal-space.vercel.app/",
     githubUrl: "https://github.com/Mohamed-Gamal-code/my-portfolio"
   }
 

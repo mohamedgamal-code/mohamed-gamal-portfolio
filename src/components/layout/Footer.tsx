@@ -33,7 +33,7 @@ const SOCIAL_LINKS = [
   },
   {
     name: "WhatsApp",
-    href: "https://wa.me/201159497813", 
+    href: "https://wa.me/201159497813",
     icon: SiWhatsapp,
     color: "#25d366",
   },
@@ -141,13 +141,18 @@ export default function Footer() {
               </h4>
               <ul className="grid grid-cols-2 sm:grid-cols-1 gap-y-3 sm:gap-y-4 gap-x-4 px-4 sm:px-0 w-full sm:w-auto">
                 {MENU_ITEMS.map((item) => (
-                  <li key={item.label} className="flex justify-center sm:justify-start">
+                  <li
+                    key={item.label}
+                    className="flex justify-center sm:justify-start"
+                  >
                     <Link
                       href={item.href}
                       onClick={(e) => {
                         if (item.href.startsWith("#")) {
                           e.preventDefault();
-                          document.querySelector(item.href)?.scrollIntoView({ behavior: "smooth" });
+                          document
+                            .querySelector(item.href)
+                            ?.scrollIntoView({ behavior: "smooth" });
                         }
                       }}
                       className="group relative inline-flex items-center text-zinc-600 dark:text-zinc-400 hover:text-blue-600 dark:hover:text-blue-400 transition-all font-black italic text-[13px] md:text-base"
@@ -182,12 +187,19 @@ export default function Footer() {
                 </a>
 
                 <div className="flex flex-row items-center gap-3 md:gap-4 w-fit p-2 sm:p-0">
+                  <a
+                    href="https://www.google.com/maps/search/?api=1&query=Cairo,Egypt"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex flex-row items-center gap-3 md:gap-4 w-fit p-2 sm:p-0 group transition-all duration-300"
+                  >
                   <div className="w-10 h-10 rounded-lg bg-white/50 dark:bg-zinc-900/50 border border-zinc-200 dark:border-zinc-800 flex items-center justify-center shrink-0">
                     <MapPin className="w-4 h-4 text-blue-600" />
                   </div>
                   <span className="text-zinc-900 dark:text-zinc-100 font-black italic text-[13px] sm:text-sm md:text-base">
                     {t("location")}
                   </span>
+                  </a>
                 </div>
               </div>
             </div>

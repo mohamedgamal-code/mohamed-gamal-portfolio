@@ -93,7 +93,7 @@ export default function Contact() {
       icon: MapPin,
       label: t("info.location"),
       value: t("info.locationValue"),
-      href: null,
+      href: "https://www.google.com/maps?q=Cairo,+Egypt",
       color: "#4285f4",
     },
   ];
@@ -212,10 +212,22 @@ export default function Contact() {
             <div className="flex flex-col gap-4">
               {CONTACT_INFO.map(
                 ({ icon: Icon, label, value, href, color, gmailHref }) => (
-                  <div
+                  <a
                     key={label}
-                    className="flex items-center gap-4 md:gap-5 p-3 md:p-4 rounded-xl bg-zinc-100/50 dark:bg-zinc-900/50 border border-zinc-200 dark:border-zinc-800/50 group"
+                    href={href || "#"}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={(e) =>
+                      handleContactClick(e, {
+                        label,
+                        href,
+                        gmailHref,
+                        color,
+                      })
+                    }
+                    className="flex items-center gap-4 md:gap-5 p-3 md:p-4 rounded-xl bg-zinc-100/50 dark:bg-zinc-900/50 border border-zinc-200 dark:border-zinc-800/50 group transition-all hover:bg-zinc-200/50 dark:hover:bg-zinc-800/50"
                   >
+                    {/* سكشن الأيقونة - دلوقتي بقى جوه الـ <a> */}
                     <div
                       className="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center rounded-lg bg-white dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 group-hover:border-[var(--brand-color)] transition-all shrink-0"
                       style={{ ["--brand-color" as any]: color }}
@@ -225,28 +237,17 @@ export default function Contact() {
                         style={{ ["--brand-color" as any]: color }}
                       />
                     </div>
+
+                    {/* سكشن النصوص */}
                     <div className="flex flex-col min-w-0">
                       <span className="text-[9px] font-mono uppercase tracking-[2px] text-zinc-500">
                         {label}
                       </span>
-                      <a
-                        href={href || "#"}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        onClick={(e) =>
-                          handleContactClick(e, {
-                            label,
-                            href,
-                            gmailHref,
-                            color,
-                          })
-                        }
-                        className="text-zinc-900 dark:text-white font-bold text-sm md:text-base hover:text-blue-600 transition-colors truncate"
-                      >
+                      <span className="text-zinc-900 dark:text-white font-bold text-sm md:text-base group-hover:text-blue-600 transition-colors truncate">
                         {value}
-                      </a>
+                      </span>
                     </div>
-                  </div>
+                  </a>
                 )
               )}
             </div>
