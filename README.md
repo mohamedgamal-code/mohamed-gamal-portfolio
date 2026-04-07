@@ -7,10 +7,10 @@
 ### Crafting fast, scalable, and user-focused web experiences with modern technologies
 
 <p align="center">
-  <a href="https://mohamed-gamal-portfolio-alpha.vercel.app/">
+  <a href="https://mohamedgamal-portfolio.vercel.app/">
     <img src="https://img.shields.io/badge/🌐_Live_Demo-000?style=for-the-badge" />
   </a>
-  <a href="https://github.com/Mohamed-Gamal-code/mohamed-gamal-portfolio">
+  <a href="https://github.com/mohamedgamal-code/mohamed-gamal-portfolio">
     <img src="https://img.shields.io/badge/💻_Source_Code-111?style=for-the-badge" />
   </a>
 </p>
@@ -126,7 +126,7 @@ public/
 
 ```bash
 # Clone the repository
-git clone https://github.com/Mohamed-Gamal-code/mohamed-gamal-portfolio
+git clone https://github.com/mohamedgamal-code/mohamed-gamal-portfolio
 cd your-repo
 
 # Install dependencies
@@ -163,7 +163,7 @@ Translation files are located in `src/messages/`:
 
 <div align="center">
 
-<a href="https://mohamed-gamal-portfolio-alpha.vercel.app">
+<a href="https://mohamedgamal-portfolio.vercel.app/">
   <img src="https://img.shields.io/badge/🚀_My_Portfolio-111?style=for-the-badge" />
 </a>
 
@@ -171,7 +171,7 @@ Translation files are located in `src/messages/`:
   <img src="https://img.shields.io/badge/💼_My_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 
-<a href="https://github.com/Mohamed-Gamal-code">
+<a href="https://github.com/mohamedgamal-code">
   <img src="https://img.shields.io/badge/💻_GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
@@ -201,6 +201,6 @@ _Crafted with attention to detail, performance, and modern web technologies._
 
 <br/>
 
-Made with ❤️ by [Mohamed Gamal](https://github.com/Mohamed-Gamal-code)
+Made with ❤️ by [Mohamed Gamal](https://github.com/mohamedgamal-code)
 
 </div>

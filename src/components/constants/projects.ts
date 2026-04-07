@@ -20,8 +20,8 @@ export const PROJECTS: Project[] = [
       "A scalable e-commerce platform with secure authentication, product management, and Stripe payments. Built with a modern full-stack architecture focused on performance and user experience.",
     tags: ["Next.js", "TypeScript", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
     image: "/projects/ecommerce.png",
-    liveUrl: "https://ecommerce-frontend-alpha-gray.vercel.app/",
-    githubUrl: "https://github.com/Mohamed-Gamal-code/ecommerce-frontend"
+    liveUrl: "https://ecommerce-expert.vercel.app/",
+    githubUrl: "https://github.com/mohamedgamal-code/ecommerce-frontend"
   },
 
   {
@@ -31,8 +31,8 @@ export const PROJECTS: Project[] = [
       "A full-stack healthcare appointment system with secure authentication and real-time booking. Designed with a clean UI and optimized for performance and accessibility.",
     tags: ["Next.js", "TypeScript", "Clerk", "MongoDB", "Tailwind CSS", "REST API"],
     image: "/projects/medicare.png",
-    liveUrl: "https://medicare-platform-gamma.vercel.app/",
-    githubUrl: "https://github.com/Mohamed-Gamal-code/doc-connect"
+    liveUrl: "https://medicare-well.vercel.app/",
+    githubUrl: "https://github.com/mohamedgamal-code/doc-connect"
   },
 
   {
@@ -42,8 +42,8 @@ export const PROJECTS: Project[] = [
       "A modern hotel booking platform delivering a seamless reservation experience with dynamic data handling and optimized performance using server-side features.",
     tags: ["Next.js", "TypeScript", "Supabase", "Server Actions", "Tailwind CSS"],
     image: "/projects/luxestay.png",
-    liveUrl: "https://luxestay-guest-platform.vercel.app/",
-    githubUrl: "https://github.com/Mohamed-Gamal-code/luxestay-guest-experience"
+    liveUrl: "https://luxestay-booking.vercel.app/",
+    githubUrl: "https://github.com/mohamedgamal-code/luxestay-guest-experience"
   },
 
   {
@@ -54,7 +54,7 @@ export const PROJECTS: Project[] = [
     tags: ["React.js", "TypeScript", "Framer Motion", "Tailwind CSS"],
     image: "/projects/portfolio.png",
     liveUrl: "https://mohamed-gamal-space.vercel.app/",
-    githubUrl: "https://github.com/Mohamed-Gamal-code/my-portfolio"
+    githubUrl: "https://github.com/mohamedgamal-code/my-portfolio"
   }
 
 ];

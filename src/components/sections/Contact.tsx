@@ -55,7 +55,7 @@ export default function Contact() {
     {
       icon: SiGithub,
       label: "GitHub",
-      href: "https://github.com/Mohamed-Gamal-code",
+      href: "https://github.com/mohamedgamal-code",
       color: "#ffffff",
     },
     {

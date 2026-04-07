@@ -34,7 +34,7 @@ const handleEmailClick = (
 const SOCIAL = [
   {
     icon: SiGithub,
-    href: "https://github.com/Mohamed-Gamal-code",
+    href: "https://github.com/mohamedgamal-code",
     label: "GitHub",
     color: "#333",
   },

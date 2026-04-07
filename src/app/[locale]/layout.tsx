@@ -36,7 +36,7 @@ const cairo = Cairo({
   display: "swap",
 });
 export const metadata: Metadata = {
-  metadataBase: new URL("https://mohamed-gamal-portfolio-alpha.vercel.app/"),
+  metadataBase: new URL("https://mohamedgamal-portfolio.vercel.app/"),
 
   title: {
     default: "Mohamed Gamal — Full Stack Engineer | Building Scalable Web Apps",
@@ -79,7 +79,7 @@ export const metadata: Metadata = {
 
   openGraph: {
     type: "website",
-    url: "https://mohamed-gamal-portfolio-alpha.vercel.app/",
+    url: "https://mohamedgamal-portfolio.vercel.app/",
     locale: "en_US",
     alternateLocale: ["ar_EG"],
     title: "Mohamed Gamal — Full Stack Engineer",

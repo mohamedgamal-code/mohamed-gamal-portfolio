@@ -15,7 +15,7 @@ import Logo from "./Logo";
 const SOCIAL_LINKS = [
   {
     name: "GitHub",
-    href: "https://github.com/Mohamed-Gamal-code",
+    href: "https://github.com/mohamedgamal-code",
     icon: SiGithub,
     color: "#ffffff",
   },

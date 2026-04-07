@@ -181,7 +181,7 @@ export default function HorizontalProjects() {
         {/* زر استكشاف المزيد */}
         <div className="mt-20 lg:mt-32 text-center flex justify-center items-center">
           <motion.a
-            href="https://github.com/Mohamed-Gamal-code"
+            href="https://github.com/mohamedgamal-code"
             target="_blank"
             rel="noopener noreferrer"
             initial={{ opacity: 0, y: 20 }}
